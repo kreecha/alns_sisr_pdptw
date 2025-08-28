@@ -1166,7 +1166,7 @@ def main():
     current_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Path to the data file
-    full_path = os.path.join(current_dir, "..", "lc102.txt")
+    full_path = os.path.join("..", "data", "lc102.txt")
     
     print("Loading PDPTW instance...")
 
@@ -1408,4 +1408,5 @@ if __name__ == "__main__":
 
     print("================================================================")
     print('Finished performing everything, time elapsed {}'.format(str(timedelta(seconds=end_time))))
+
     print("================================================================")
