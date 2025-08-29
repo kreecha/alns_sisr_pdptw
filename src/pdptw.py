@@ -60,7 +60,6 @@ from alns.accept import HillClimbing, SimulatedAnnealing
 from alns.select import RouletteWheel
 from alns.stop import MaxIterations
 
-from src.sisr_alns_pdptw import add_sisr_pdptw_operators
 
 from typing import List, Tuple, Dict
 
