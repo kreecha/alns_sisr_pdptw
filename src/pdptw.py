@@ -63,6 +63,8 @@ from alns.stop import MaxIterations
 
 from typing import List, Tuple, Dict
 
+from src.sisr_alns_pdptw import add_sisr_pdptw_operators
+
 
 class PDPTWInstance:
     """Represents a PDPTW instance from Li-Lim benchmark"""
